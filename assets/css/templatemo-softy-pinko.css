@@ -1,10 +1,4 @@
-/*
 
-Softy Pinko
-
-https://templatemo.com/tm-535-softy-pinko
-
-*/
 /* ---------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -108,17 +102,17 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #000000;/*#fff;*/
   font-family: "Raleway", sans-serif;
 }
 
 ::selection {
-  background: #ff589e;
+  background: #0D6BC1;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #ff589e;
+  background: #0D6BC1;
   color: #fff;
 }
 
@@ -129,7 +123,7 @@ body {
 }
 
 .section.colored {
-  background: #f2f2fe;
+  background: #000000;
 }
 
 .hr {
@@ -148,7 +142,7 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 42px;
-  color: #1e1e1e;
+  color: #ffffff;
   letter-spacing: 0.25px;
   margin-bottom: 30px;
   position: relative;
@@ -161,7 +155,7 @@ body {
 .center-heading .section-title {
   font-weight: 500;
   font-size: 28px;
-  color: #1e1e1e;
+  color: #ffffff;
   letter-spacing: 1.75px;
   line-height: 38px;
   margin-bottom: 20px;
@@ -187,14 +181,14 @@ body {
 
 .center-text p {
   font-size: 15px;
-  color: #777;
+  color: #ffffff;
   margin-bottom: 30px;
 }
 
 .left-text {
   font-weight: 400;
   font-size: 16px;
-  color: #777;
+  color: #ffffff;
   line-height: 28px;
   letter-spacing: 1px;
 }
@@ -314,7 +308,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ff589e;
+  background-color: #4040FB;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -332,7 +326,7 @@ a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #2174d4;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -343,7 +337,8 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: #3DF883;
+  color: #000000;
 }
 
 button.main-button {
@@ -351,11 +346,12 @@ button.main-button {
   border: none;
   cursor: pointer;
   font-size: 13px;
+  font-weight: 600;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #4040FB;
   text-transform: uppercase;
-  color: #fff;
+  color: white;
   letter-spacing: 0.25px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -364,7 +360,8 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff589e;
+  background-color: #3DF883;
+  color: #000000;
 }
 
 
@@ -448,7 +445,8 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: #4040FB;
+ 
 }
 
 .header-area .main-nav .menu-trigger {
@@ -560,7 +558,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color: #0505B8  ;
 }
 
 @media (max-width: 1200px) {
@@ -644,12 +642,15 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(https://img.freepik.com/fotos-gratis/paisagem-da-aurora-boreal-sobre-o-mar_23-2151387566.jpg?w=740&t=st=1712617698~exp=1712618298~hmac=e07f6c76e7bea68a8ad05944909b63a6483da90f71a56b5af6045bb026dd7315);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
   height: 100vh;
+  
 }
+
+
 
 .welcome-area .header-text {
   position: absolute;
@@ -659,6 +660,7 @@ welcome
   width: 100%;
 }
 
+
 .welcome-area .header-text h1 {
   font-weight: 500;
   font-size: 36px;
@@ -666,6 +668,8 @@ welcome
   letter-spacing: 1.4px;
   margin-bottom: 30px;
   color: #fff;
+  
+  
 }
 
 .welcome-area .header-text p {
@@ -769,7 +773,7 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #ff589e;
+  background-color: #3DF883 ;
 }
 
 .features-small-item .icon {
@@ -783,7 +787,7 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #8261ee;
+  background: #2174d4;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -980,7 +984,7 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: .90;
-  background-image: url(../images/fun-facts-bg.png);
+  background-color:#4040FB ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1175,7 +1179,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 15px;
-  color: #ff589e;
+  color: #3DF883  ;
   letter-spacing: 0.25px;
 }
 
@@ -1214,7 +1218,7 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: #ff589e;
+  background-color: #3DF883 ;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1351,7 +1355,7 @@ blog
 }
 
 .blog-post-thumb h3 a:hover {
-  color: #ff589e;
+  color: #3DF883;
 }
 
 .blog-post-thumb .text {
@@ -1474,7 +1478,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff589e;
+  background-color: #3DF883;
   color: #fff;
 }
 
