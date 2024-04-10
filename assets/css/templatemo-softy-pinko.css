@@ -138,6 +138,12 @@ body {
   color: #ffffff;
 }
 
+#features .container .row .col-lg-5 img {
+  box-shadow: white;
+  
+}
+
+
 .left-heading .section-title {
   font-weight: 500;
   font-size: 24px;
@@ -200,6 +206,7 @@ body {
 .left-text p {
   margin-bottom: 30px;
 }
+
 
 .left-text p.dark {
   color: #3B566E;
@@ -642,7 +649,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://img.freepik.com/fotos-gratis/paisagem-da-aurora-boreal-sobre-o-mar_23-2151387566.jpg?w=740&t=st=1712617698~exp=1712618298~hmac=e07f6c76e7bea68a8ad05944909b63a6483da90f71a56b5af6045bb026dd7315);
+  background-image: url(/assets/images/boreal1blur1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -848,9 +855,11 @@ parallax & home seperator
   min-height: 215px;
   overflow: hidden;
   position: relative;
-  padding-top: 90px;
+  padding-top: 30px;
   padding-bottom: 90px;
+ 
 }
+
 
 .mini:before {
   content: '';
@@ -861,7 +870,7 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-bg.png);
+  background-image: url(../images/boreal1blur1.jpg);
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -928,6 +937,9 @@ parallax & home seperator
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
 
 .mini .mini-content .mini-box:hover {
@@ -984,7 +996,7 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: .90;
-  background-color:#4040FB ;
+  background-image: url(/assets/images/boreal1blur1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1136,7 +1148,7 @@ team
   text-align: center;
 }
 
-.team-item .user-image {
+.team-item .user-image img {
   width: 60px;
   height: 60px;
   overflow: hidden;
@@ -1398,9 +1410,9 @@ contact
 }
 
 #contact-us h5 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
-  color: #1e1e1e;
+  color: #FFFF;
   letter-spacing: 0.25px;
   line-height: 26px;
 }
@@ -1408,7 +1420,7 @@ contact
 .contact-text {
   font-weight: 400;
   font-size: 14px;
-  color: #6F8BA4;
+  color: #FFFF;
   letter-spacing: 0.6px;
   line-height: 26px;
 }
@@ -1446,8 +1458,12 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  /* background-image: linear-gradient(127deg, #0505B8 0%, #55DFD8 91%); */
+  background-image: url(/assets/images/boreal1blur1.jpg);
   padding-top: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer .social {
